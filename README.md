@@ -1,6 +1,6 @@
 # cryanal
 ## Amaç 
-coin sinyal botu. 
+**cryAnal**, bir kripto para birimi sinyal botudur.
 ## Nasıl ? 
 Binance API aracılığı ile coin/usdt çiftlerinin versini çekip bu veriler üzerinde TAlib kütüphanesini kullanarak belirli indikatörler arcılığı ile puan ataması yapıp coinleri listelemek. 
 Kodlarda gösterdiğim indikatörler ve stratejiler tamamen örnek olması amacıyla yazılmıştır. Kendi stratejinizi ve kendi seçtiğiniz indikatörleri yine kendi istediğiniz şekilde kullanabilirsiniz. [Daha fazla bilgi için talib kütüphanesini ziyaret edin.](https://github.com/mrjbq7/ta-lib)
