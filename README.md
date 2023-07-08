@@ -16,6 +16,7 @@ Kodlarda gösterdiğim indikatörler ve stratejiler tamamen örnek olması amac�
 - [datetime](https://docs.python.org/3/library/datetime.html)
 - [multiprocessing](https://docs.python.org/3/library/multiprocessing.html)
 
+# Dosyalar
 ## test_graph 
 Bu kısımda, belirlediğimiz puanlama stratejisini bir grafik üzerinde inceleyebiliriz. Hangi indikatörlerin kullanılacağını, hangi indikatörlere kaç puan atanacağını, alım sinyali için minimum puan sınırımızın (threshold) ne olacağını ve satım ya da belki de kısa pozisyon (short) sinyali için minimum puan sınırımızın ne olacağını bizim belirlememiz gerekiyor. İstediğimiz bir kripto para birimi (coin) ve USDT çifti üzerinde, istediğimiz bir zaman aralığında ve istediğimiz bir candlestick (mum çubuk) verisi üzerinde stratejimizi test edebilir ve sonuçları görselleştirebiliriz. Bu sayede, stratejimizin belirli piyasa koşulları ve varlıklar üzerinde nasıl performans gösterdiğini anlamamıza yardımcı olabilir. Bu grafikler, stratejimizi ayarlamak ve iyileştirmek için değerli bir araç olabilir.
 
