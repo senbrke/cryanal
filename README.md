@@ -37,7 +37,7 @@ Simülasyon sonunda, tüm işlemlerimizin başarı metriklerini gösteririz. Bu 
 ## Execution 
 Bu kısım, hazırlıkların tamamlandığı ve kodumuzun canlı olarak çalıştırılmasının beklendiği noktadır. Kendi Binance 'api_key' ve 'api_secret' bilgilerinizi kullanarak kodu canlı olarak çalıştırabilirsiniz. Bu, Binance API'si üzerinden gerçek zamanlı olarak kripto para birimi/USDT çiftlerinin analizini gerçekleştirir ve her bir çift için bir puan üretir. Sonuç olarak, bu bölüm, kodumuzun gerçek zamanlı veriler üzerinde analiz yapabilmesini ve bu analiz sonuçlarına göre potansiyel yatırım kararları verebilmesini sağlar.
 
-## Notlar:
+## Notlar:
 * Her bir dosyanın içindeki yorumlarla ve her bir fonksiyonu docstirnglerle olabildiğince açıklamaya çalıştım.
 * Her bir dosyada calculate_points fonksiyonumuzdaki indikatörler için farklı kullanım örneklerini vermeye çalıştım. Aynı indikatörleri farklı stratejiler ile kullanabiliriz.
 * backtesting işlemlerinde calculate_points fonksiyonların başındaki for döngüsüne dikka çekmek istiyorum. Uyguladığım stratejide yaptığım incelemeler neticesinde her indikatörün aynı zaman diliminde kesişmediğini farkettim. Bu sorunun önüne geçebilmek amacıyla bu for döngüsü yazılmıştır.
