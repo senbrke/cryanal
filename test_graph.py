@@ -129,6 +129,7 @@ def calculate_points(df):
 # Alım ve satım sinyallerini tespit et
 btc_data['Signal'] = btc_data['close'].expanding(min_periods=20).apply(lambda x: calculate_points(btc_data.loc[x.index]))
 
+# Threshold Belirleme Kısmı
 # Alım sinyallerini tespit et
 btc_data['Buy'] = np.where(btc_data['Signal'] >= 1.5, btc_data['close'], np.nan)
 
