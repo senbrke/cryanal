@@ -37,7 +37,7 @@ Simülasyon sonunda, tüm işlemlerimizin başarı metriklerini gösteririz. Bu 
 ## Execution 
 Bu kısım, hazırlıkların tamamlandığı ve kodumuzun canlı olarak çalıştırılmasının beklendiği noktadır. Kendi Binance 'api_key' ve 'api_secret' bilgilerinizi kullanarak kodu canlı olarak çalıştırabilirsiniz. Bu, Binance API'si üzerinden gerçek zamanlı olarak kripto para birimi/USDT çiftlerinin analizini gerçekleştirir ve her bir çift için bir puan üretir. Sonuç olarak, bu bölüm, kodumuzun gerçek zamanlı veriler üzerinde analiz yapabilmesini ve bu analiz sonuçlarına göre potansiyel yatırım kararları verebilmesini sağlar.
 
-## binance_historical_data.py
+## binance_historical_data
 Bu kısım Binance API kullanrak istediğiniz COINUSDT çiftlerinin mum verilerini çekip tek bir csv dosyasına aktarabileceğiniz bölüm. Bu py dosyasının özellikleri şu şekilde :
 * İsterseniz kendi belirlediğiniz COINUSDT çiftlerinin verilerini isterseniz otomatik olarak 24 saatlik hacmi en yüksek x COINUSDT çiftinin verisini çekebilirsiniz.
 * Çekeceğiniz mum verilerinin periyotlarını kendiniz belirleyebilirsiniz. (Örn. : 4HOUR, 1HOUR, 1DAY ...)
